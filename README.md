@@ -3,7 +3,7 @@ This repository contains the code for the paper titled "Spatial Transcriptomics-
 
 # Data availability
 |Type                     |Samples      |Source                                                                            |
-|-------------------------|-------------|----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------------------------|
 |Spatial transcriptomics  |68           |Mendeley Data: https://data.mendeley.com/datasets/29ntw7sh4r/5                    |
 |                         |4            |10x Genomics: https://www.10xgenomics.com/                                        |
 |                         |1            |GSE243275: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243275           |
@@ -15,4 +15,4 @@ This repository contains the code for the paper titled "Spatial Transcriptomics-
 |                         |62           |IMPRESS-HER2 cohort: https://tinyurl.com/IMPRESS-DATA                             |
 |                         |64           |IMPRESS-TNBC cohort: https://tinyurl.com/IMPRESS-DATA                             |
 |                         |766          |TCGA-BRCA: https://portal.gdc.cancer.gov/                                         |
-|-------------------------|-------------|----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------------------------|
