@@ -10,7 +10,6 @@ This repository contains the code for the paper titled "Spatial Transcriptomics-
 |                         |24           |GSE242311: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242311           |                        
 |                         |3            |GSE203612: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203612           |
 |                         |4            |GSE190870: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190870           |
-|-------------------------|-------------|----------------------------------------------------------------------------------|
 |Histopathology images    |85           |YALE-HER2 cohort: https://www.cancerimagingarchive.net/collection/her2-tumor-rois/|
 |                         |62           |IMPRESS-HER2 cohort: https://tinyurl.com/IMPRESS-DATA                             |
 |                         |64           |IMPRESS-TNBC cohort: https://tinyurl.com/IMPRESS-DATA                             |
