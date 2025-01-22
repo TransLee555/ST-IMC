@@ -13,4 +13,5 @@ This repository contains the code for the paper titled "Spatial Transcriptomics-
 |Histopathology images    |85           |YALE-HER2 cohort: https://www.cancerimagingarchive.net/collection/her2-tumor-rois/|
 |                         |62           |IMPRESS-HER2 cohort: https://tinyurl.com/IMPRESS-DATA                             |
 |                         |64           |IMPRESS-TNBC cohort: https://tinyurl.com/IMPRESS-DATA                             |
-|                         |766          |TCGA-BRCA: https://portal.gdc.cancer.gov/                                         |
+|                         |766*         |TCGA-BRCA: https://portal.gdc.cancer.gov/                                         |
+*See os_cohort.csv for detailed information.
