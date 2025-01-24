@@ -1,0 +1,86 @@
+Patient,ER,PR,HER2 IHC,HER2,resid inv size (cm),HER2:CEP17 ratio ,Her2 CN (signals/cell),CEP17 ,Responder,Response
+O09-03495,0,0,2,amp,2.5,,,,nonresponder,positive
+O10-12717,95,40,2,amp,2.5,3.8,,,nonresponder,positive
+O14-02301,1,1,2,amp,2,2.8,11.3,4,nonresponder,positive
+O16-11870,10,1,3,amp,no resid,5.8,18.9,3.3,responder,positive
+O16-18464,90,90,3,amp,1.2,5,13.3,2.7,nonresponder,positive
+O17-01529,100,20,2,amp,3,1.5,6,4,nonresponder,positive
+O18-12772,,,3,,no resid,,,,responder,positive
+S08-31466,0,0,3,amp,0.5,5.7, - , - ,nonresponder,positive
+S09-15833,0,0,3,amp,1.5,,,,nonresponder,positive
+S09-19750,90,10,3,amp,no resid,,,,responder,positive
+S10-00647,90,0,3,amp,no resid,,,,responder,positive
+S10-09633,65,95,2,amp,0.25 L,3.4,,,nonresponder,positive
+S11-15267,60,50,3,amp,0.17,4.2,,,nonresponder,positive
+S11-24835,80,25,3,amp,1.8,6.3,,,nonresponder,positive
+S12-07776,0,0,2,amp,2.03,1.17, - ,,nonresponder,positive
+S12-22754,0,0,3,amp,1.3,,,,nonresponder,positive
+S12-28303,70,5,2,amp,2.8,2.96, - ,,nonresponder,positive
+S12-35886,0,10-May,2,amp,microinv,,,,responder,positive
+S13-11381,<1,<1,3,amp,0.5,,,,nonresponder,positive
+S13-15979,100,30,2,amp,3.5,3.6, - ,,nonresponder,positive
+S13-31494,90,45,2,amp,no resid,,,,responder,positive
+S13-33035,>95,20,3,amp,4.6,2.4,12.6,5.2,nonresponder,positive
+S14-01774,90,5,3,amp,0.2,,,,nonresponder,positive
+S14-04504,57,93,3,amp,11,7,8.6,1.2,nonresponder,positive
+S14-12226,50,>10,2,amp,no resid,,,,responder,positive
+S14-12770,100,0,2,amp,3,3.6,10,2.8,nonresponder,positive
+S14-12928,100,10,3,amp,no resid,,,,responder,positive
+S14-13440,0,0,2,amp,no resid,4.1,14.3,3.6,responder,positive
+S14-13994,80,30,2,amp,6.6,2.9,9.3,3.3,nonresponder,positive
+S14-15197,100,1,3,indeterm,1.8,1.4,4.8,3.6,nonresponder,positive
+S14-16118,0,0,3,amp,3.6,,,,nonresponder,positive
+S15-00942,1,1,3,amp,0.2,5.1,12.4,2.4,nonresponder,positive
+S15-02790,1,1,2,amp,no resid,2.3,4.5,1.9,responder,positive
+S15-03056,95,70,3,amp,0.8,12.4,19,1.5,nonresponder,positive
+S15-05781,95,1,3,amp,2.6,5.4,9.6,1.8,nonresponder,positive
+S15-05979,1,1,3,amp,no resid,7.3,17.3,2.4,responder,positive
+S15-06857,100,5,3,amp,3.6,2.6,5,2,nonresponder,positive
+S15-10140,1,1,3,amp,0.9,6.8,15.8,2.3,nonresponder,positive
+S15-12411,1,1,3,amp,2.4,6.9,10.6,1.5,nonresponder,positive
+S15-12838,100,30,2,amp,0.9,3.8,11.7,3,nonresponder,positive
+S15-13623,95,60,2,amp,3,2.9,6.2,2.2,nonresponder,positive
+S15-14834,20,15,2,amp,2.2,4.1,6.5,1.6,nonresponder,positive
+S15-15318,95,50,2,amp,no resid,4.6,8.7,1.9,responder,positive
+S15-20350,95,5,2,amp,1.5,3.2,9.3,2.9,nonresponder,positive
+S15-27036,60,20,3,amp,0.6,4.8,10,2.1,nonresponder,positive
+S15-28568,100,10,3,amp,0.8,5.3,10.7,2,nonresponder,positive
+S16-00356,1,1,3,amp,no resid,4.8,12.4,2.6,responder,positive
+S16-01567,1,1,2,amp,1.4,4.1,10,2.4,nonresponder,positive
+S16-06544,100,80,2,amp,3,2.1,4,1.9,nonresponder,positive
+S16-08071,30,1,3,amp,no resid,1.6,16.3,10.2,responder,positive
+S16-11632,1,1,3,amp,0.17,3.1,12,3.9,nonresponder,positive
+S16-12501,1,1,3,amp,1.1,4.2,8,1.9,nonresponder,positive
+S16-19596,1,1,3,amp,no resid,4.5,8.3,1.9,responder,positive
+S16-20727,1,1,3,amp,no resid,12,21.2,1.8,responder,positive
+S16-23506,1,1,3,amp,no resid,7,12.3,1.8,responder,positive
+S16-28041,100,40,3,amp,1.6,5.3,14,2.7,nonresponder,positive
+S16-28729,<1,<1,3,amp,no resid,,,,responder,positive
+S16-29941,10,1,3,amp,no resid,1,15,15,responder,positive
+S16-30001,<1,<1,3,amp,3,5.9,16,2.7,nonresponder,positive
+S16-30545,80,50,3,amp,no resid,,,,responder,positive
+S16-32975,90,80,2,amp,no resid,4.8,12.2,2.5,responder,positive
+S17-00215,90,80,2,amp,no resid,4.8,12.2,2.5,responder,positive
+S17-00970,1,1,3,,no resid,none reported,,,responder,positive
+S17-08236,90,1,2,amp,no resid,11.9,17.9,1.5,responder,positive
+S17-08865,95,1,3,,no resid,,,,responder,positive
+S17-08918,95,5,2,amp,0.02,2.2,3.3,1.5,responder,positive
+S17-14190,80,90,3,amp,0.8,17.4,26.7,1.5,nonresponder,positive
+S17-14334,1,1,3,amp,no resid,4.1,10.1,2.5,nonresponder,positive
+S17-20728,70,50,3,,no resid,,,,responder,positive
+S17-22163,1,1,3,,no resid,,,,responder,positive
+S18-03825,95,<1,3,,0.6,,,,responder,positive
+S18-03934,95,70,3,,no resid,,,,nonresponder,positive
+S18-05363,90,60,3,,0.8,,,,responder,positive
+S18-09519,0,0,2,amp,No resid invasive,7.5,15,2,nonresponder,positive
+S18-10074,>95,90,3,,0.5,,,,responder,positive
+S18-12553,0,0,3,,0.4,,,,nonresponder,positive
+S18-18704,0,0,3,,0.2,,,,nonresponder,positive
+S18-25097,100,0,3,,no resid,,,,nonresponder,positive
+S18-27506,>95,1,3,,no resid,,,,responder,positive
+S18-30424,70,20,2,amp,no resid,5.6,10.4,1.9,responder,positive
+S18-31022,0,0,2,amp,1.1,4,10.7,2.7,responder,positive
+S18-32412,0,0,3,,no resid,,,,nonresponder,positive
+S13-07627,0,0,3,amp,0.1,5.6,,,responder,positive
+S13-08586,90,20,2,amp,no resid,,,,nonresponder,positive
+S18-15441,0,0,3,,no resid,,,,responder,positive
