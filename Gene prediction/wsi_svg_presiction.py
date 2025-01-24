@@ -37,7 +37,7 @@ class encoder(nn.Module):
         return regression_loss
 
 model = encoder(tile_encoder, output=138).to(device)
-model_path = r'save_model/best_model_epoch.pth'
+model_path = r'../save_model/best_model_epoch.pth'
 model.load_state_dict(torch.load(model_path))
 model.eval()
 
