@@ -67,12 +67,11 @@ def perform_differential_expression(data):
 
     return results_df, significant_genes_df
 
-def save_results(results_df, significant_genes_df, output_dir):
+def save_results(significant_genes_df, output_dir):
     """
     Save results and significant genes to CSV.
     """
-    results_df.to_csv(os.path.join(output_dir, 'all_genes_differential_expression.csv'), index=False)
-    significant_genes_df.to_csv(os.path.join(output_dir, 'significant_genes_for_enrichment.csv'), index=False)
+    significant_genes_df.to_csv(os.path.join(output_dir, 'YALE_HER2_svgs_for_enrichment.csv'), index=False)
     print("Significant Genes for Enrichment:\n", significant_genes_df)
 
 if __name__ == '__main__':
@@ -93,4 +92,4 @@ if __name__ == '__main__':
     results_df, significant_genes_df = perform_differential_expression(data_sorted)
 
     # Save results
-    save_results(results_df, significant_genes_df, r"../Prognostic Model/")
+    save_results(significant_genes_df, r"../Prognostic Model/")
