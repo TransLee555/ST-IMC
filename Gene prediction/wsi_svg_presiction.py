@@ -16,8 +16,30 @@ root = os.path.dirname(os.path.abspath(__file__))  # Get the current script dire
 
 # Initialize the tile encoder model
 tile_encoder = timm.create_model('hf_hub:prov-gigapath/prov-gigapath', pretrained=True, pretrained_cfg_overlay=dict(
-    file=os.path.join(root, 'save_model/best_model_epoch.bin')))
+    file=os.path.join(root, 'pretrained/pytorch_model.bin')))
 tile_encoder = tile_encoder.cuda()
+
+class encoder(nn.Module):
+    def __init__(self, tile_encoder, output):
+        super(encoder, self).__init__()
+        self.tile_encoder = tile_encoder
+        self.head_drop = nn.Dropout(p=0.5)
+        self.new_head = nn.Linear(1536, output)
+
+    def forward(self, x):
+        x = self.tile_encoder(x)
+        x = self.head_drop(x)
+        x = self.new_head(x)
+        return x
+
+    def compute_loss(self,regression_output, target):
+        regression_loss = F.mse_loss(regression_output.view(-1), target.view(-1))
+        return regression_loss
+
+model = encoder(tile_encoder, output=138).to(device)
+model_path = r'save_model/best_model_epoch.pth'
+model.load_state_dict(torch.load(model_path))
+model.eval()
 
 # Initialize stain normalizer
 target_image = stain_norm_target()
@@ -67,7 +89,7 @@ def process_svs(svs_name):
                 # Perform stain normalization and preprocessing
                 sample_input = stain_norm_func(np_patch)
                 with torch.no_grad():
-                    output = tile_encoder(sample_input).squeeze()
+                    output = model(sample_input).squeeze()
                     data = pd.DataFrame(output.detach().cpu().numpy())  # 1024-D
                     feature_matrix = pd.concat([feature_matrix, data.T])
 
